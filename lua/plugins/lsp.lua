@@ -8,7 +8,7 @@ vim.pack.add({
   { src = "https://github.com/github/copilot.vim" },
 
   { src = "https://github.com/folke/lazydev.nvim" },
-})
+}, { confirm = false })
 
 local cmp = require('blink.cmp')
 cmp.build():pwait()

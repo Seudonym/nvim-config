@@ -5,7 +5,7 @@ vim.pack.add({
   { src = 'https://github.com/nvim-mini/mini.surround',    version = vim.version.range('*') },
 
   { src = 'https://github.com/akinsho/bufferline.nvim',    version = vim.version.range("*") }
-})
+}, { confirm = false })
 
 require("mini.ai").setup()
 require("mini.indentscope").setup()

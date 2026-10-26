@@ -3,7 +3,7 @@ vim.pack.add({
     src = "https://github.com/nvim-treesitter/nvim-treesitter",
     version = "main",
   },
-})
+}, { confirm = false })
 
 vim.api.nvim_create_autocmd("FileType", {
   group = vim.api.nvim_create_augroup("TreesitterHighlight", { clear = true }),
